@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c777e9d63a82e834cb928bc8a0771818, type: 3}
   m_Name: Charmander
   m_EditorClassIdentifier: Assembly-CSharp::CharacterSO
-  Id: 0
-  CharacterName: 
-  CharacterSprite: {fileID: 0}
+  Id: 3
+  CharacterName: Charmander
+  CharacterSprite: {fileID: -1509525088455390036, guid: 0e5d5e4e5059c1043b14603717fa56e8, type: 3}

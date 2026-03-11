@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c777e9d63a82e834cb928bc8a0771818, type: 3}
   m_Name: Blaziken
   m_EditorClassIdentifier: Assembly-CSharp::CharacterSO
-  Id: 0
-  CharacterName: 
-  CharacterSprite: {fileID: 0}
+  Id: 1
+  CharacterName: Blaziken
+  CharacterSprite: {fileID: -3014844258293696418, guid: a60524d06ced38f4586855be80b493cb, type: 3}

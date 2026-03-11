@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c777e9d63a82e834cb928bc8a0771818, type: 3}
   m_Name: Meowth
   m_EditorClassIdentifier: Assembly-CSharp::CharacterSO
-  Id: 0
-  CharacterName: 
-  CharacterSprite: {fileID: 0}
+  Id: 5
+  CharacterName: Meowth
+  CharacterSprite: {fileID: 8145242564054719938, guid: 248884be8493e1447a2e60b2f92824fb, type: 3}

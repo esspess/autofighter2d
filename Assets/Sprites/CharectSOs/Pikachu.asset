@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c777e9d63a82e834cb928bc8a0771818, type: 3}
   m_Name: Pikachu
   m_EditorClassIdentifier: Assembly-CSharp::CharacterSO
-  Id: 0
-  CharacterName: 
-  CharacterSprite: {fileID: 0}
+  Id: 7
+  CharacterName: Pikachu
+  CharacterSprite: {fileID: 7551071871341178678, guid: 297ce178fed9b2a41b21fa43c5b75356, type: 3}

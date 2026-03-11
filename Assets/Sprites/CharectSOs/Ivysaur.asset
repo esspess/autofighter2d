@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c777e9d63a82e834cb928bc8a0771818, type: 3}
   m_Name: Ivysaur
   m_EditorClassIdentifier: Assembly-CSharp::CharacterSO
-  Id: 0
-  CharacterName: 
-  CharacterSprite: {fileID: 0}
+  Id: 4
+  CharacterName: Ivysaur
+  CharacterSprite: {fileID: 3870445258083137740, guid: 24c170fb111c7a3488f18bd3f4c06e4c, type: 3}

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c777e9d63a82e834cb928bc8a0771818, type: 3}
   m_Name: Bulbasaur
   m_EditorClassIdentifier: Assembly-CSharp::CharacterSO
-  Id: 0
-  CharacterName: 
-  CharacterSprite: {fileID: 0}
+  Id: 2
+  CharacterName: Bulbasaur
+  CharacterSprite: {fileID: -4938946576939203426, guid: 1eda2a2543185a646b71d8775ed66523, type: 3}

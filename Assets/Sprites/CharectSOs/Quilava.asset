@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c777e9d63a82e834cb928bc8a0771818, type: 3}
   m_Name: Quilava
   m_EditorClassIdentifier: Assembly-CSharp::CharacterSO
-  Id: 0
-  CharacterName: 
-  CharacterSprite: {fileID: 0}
+  Id: 8
+  CharacterName: Quilava
+  CharacterSprite: {fileID: 465246027490640526, guid: 8dbed5736e03273499b1b70c43b1f0d8, type: 3}
