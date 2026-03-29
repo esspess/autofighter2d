@@ -6,13 +6,10 @@ public class GameRunningState : BaseState
     [SerializeField] GameObject characterPrefab;
     [SerializeField] List<Transform> spawnPoints;
     [SerializeField] int numberOfFighters;
-
+    CharacterGO character;
     public override void Enter()
     {
-        numberOfFighters.Times(i =>
-        {
-            Instantiate(characterPrefab, spawnPoints[i].position, Quaternion.identity);
-        });
+        character = Instantiate(characterPrefab, spawnPoints[0].position, Quaternion.identity).GetComponent<CharacterGO>();
     }
 
     public override void Exit()

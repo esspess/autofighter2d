@@ -4,17 +4,13 @@ using UnityEngine.InputSystem;
 
 public class CharacterGO : MonoBehaviour, IDamagable
 {
+    public GameEvent HelloEvent;
     private AttackGO attackGO;
     private Health characterHealth;
     Keyboard keyboard;
     Vector2 randomDirection;
     [SerializeField] LayerMask whatIsBoundary;
     // Find the collider
-
-    public void TakeDamage(float amount)
-    {
-        characterHealth.TryTakeDamage(amount);
-    }
 
     private void Awake()
     {
@@ -50,5 +46,9 @@ public class CharacterGO : MonoBehaviour, IDamagable
             Vector2 ReflectedDirection = Vector2.Reflect(randomDirection, contacts[0].normal);
             randomDirection = -1 * ReflectedDirection;
         }
+    }
+    public void TakeDamage(float amount)
+    {
+        characterHealth.TryTakeDamage(amount);
     }
 }
