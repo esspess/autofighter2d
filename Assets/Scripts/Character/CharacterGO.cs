@@ -4,7 +4,34 @@ using UnityEngine.InputSystem;
 
 public class CharacterGO : MonoBehaviour, IDamagable
 {
-    public GameEvent HelloEvent;
+    [SerializeField] StateMachine characterStateMachine;
+    [SerializeField] CharacterWaitingState characterWaitingState;
+    public enum CharacterState
+    {
+        None = -1,
+        Waiting = 0,
+        Patrol,
+        Attack,
+        Dead
+    }
+    public void ChangeState(CharacterState newState)
+    {
+        switch (newState)
+        {
+            case CharacterState.Waiting:
+                characterStateMachine.SetCurrentState(characterWaitingState);
+                break;
+            case CharacterState.Patrol:
+                // characterStateMachine.SetCurrentState(new CharecterPatrolState());
+                break;
+            case CharacterState.Attack:
+                // characterStateMachine.SetCurrentState(new CharacterAttackState());
+                break;
+            case CharacterState.Dead:
+                // characterStateMachine.SetCurrentState(new CharacterDeadState());
+                break;
+        }
+    }
     private AttackGO attackGO;
     private Health characterHealth;
     Keyboard keyboard;

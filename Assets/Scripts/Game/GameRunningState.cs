@@ -10,11 +10,11 @@ public class GameRunningState : BaseState
     public override void Enter()
     {
         character = Instantiate(characterPrefab, spawnPoints[0].position, Quaternion.identity).GetComponent<CharacterGO>();
+        character.ChangeState(CharacterGO.CharacterState.Waiting);
     }
 
     public override void Exit()
     {
-        throw new System.NotImplementedException();
     }
 
     public override void Tick()

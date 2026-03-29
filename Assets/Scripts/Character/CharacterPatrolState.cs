@@ -1,19 +1,21 @@
-using UnityEngine;
+// using UnityEngine;
 
-public class CharecterPatrolState : MonoBehaviour
-{
-    public void Enter()
-    {
-        Debug.Log("CharecterPatrolState Entered");
-    }
+// public class CharecterPatrolState : BaseState
+// {
+//     public override void Enter()
+//     {
+//         // Set Patrol Animation
+//         // Set Patrol Speed
+//         // Set Patrol Direction
+//     }
 
-    public void Exit()
-    {
-        Debug.Log("CharecterPatrolState Exited");
-    }
+//     public override void Exit()
+//     {
+//         throw new System.NotImplementedException();
+//     }
 
-    public void UpdateState()
-    {
-        Debug.Log("CharecterPatrolState UpdateState");
-    }
-}
+//     public override void Tick()
+//     {
+//         throw new System.NotImplementedException();
+//     }
+// }

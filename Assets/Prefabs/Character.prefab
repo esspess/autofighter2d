@@ -105,6 +105,7 @@ GameObject:
   - component: {fileID: 1262491857994461571}
   - component: {fileID: 3788029783516814499}
   - component: {fileID: -6483998236046129815}
+  - component: {fileID: -4359278456012402153}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -177,7 +178,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec8b5974efe43bb4a8138e8483db9aa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterGO
-  HelloEvent: {fileID: 11400000, guid: 722fa910ba35c52439163fe1418a36e8, type: 2}
+  characterStateMachine: {fileID: 6809896682930192649, guid: f74ff1b8012044243a862951edca9034, type: 3}
+  characterWaitingState: {fileID: -4359278456012402153}
   whatIsBoundary:
     serializedVersion: 2
     m_Bits: 0
@@ -249,3 +251,15 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &-4359278456012402153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7985082794250260814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1104fdab08f0f64491659edeeb6378c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterWaitingState
