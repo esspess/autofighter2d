@@ -17,10 +17,8 @@ public class AttackGO : MonoBehaviour
         // Check if enough time has passed based on the weapon's fire rate
         if (Time.time >= nextAvailableAttackTime)
         {
-
             // We don't care if it's melee or projectile, we just call Attack()
             currentWeapon.Attack();
-
             // Calculate when we can attack next (e.g., if fireRate is 0.5, we wait half a second)
             nextAvailableAttackTime = Time.time + currentWeapon.FireRate;
         }

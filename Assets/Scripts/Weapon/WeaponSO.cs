@@ -6,7 +6,7 @@ public enum WeaponType
     Projectile
 }
 
-[CreateAssetMenu(fileName = "New Weapon", menuName = "Database/Weapon")]
+[CreateAssetMenu(menuName = "Scriptable Objects/Weapon")]
 public class WeaponSO : ScriptableObject
 {
     public int Id;
