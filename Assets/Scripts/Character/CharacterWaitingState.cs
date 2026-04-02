@@ -6,7 +6,7 @@ public class CharacterWaitingState : BaseState
     {
         // Set Animation To Idle
         // Set Count Down
-        Debug.Log("Enter Running State");
+        Debug.Log("CharacterWaitingState");
     }
 
     public override void Exit()

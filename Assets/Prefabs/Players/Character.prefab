@@ -104,7 +104,6 @@ GameObject:
   - component: {fileID: 4309104019646563696}
   - component: {fileID: 1262491857994461571}
   - component: {fileID: 3788029783516814499}
-  - component: {fileID: -6483998236046129815}
   - component: {fileID: -4359278456012402153}
   m_Layer: 0
   m_Name: Character
@@ -223,34 +222,6 @@ Rigidbody2D:
   m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &-6483998236046129815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7985082794250260814}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1715466508b822d4085c570580bb2490, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GameEventListener
-  gameEvent: {fileID: 11400000, guid: 722fa910ba35c52439163fe1418a36e8, type: 2}
-  response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4309104019646563696}
-        m_TargetAssemblyTypeName: CharacterGO, Assembly-CSharp
-        m_MethodName: SayHello
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &-4359278456012402153
 MonoBehaviour:
   m_ObjectHideFlags: 0
